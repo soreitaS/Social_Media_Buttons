@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: rgb(189, 131, 106);
+}
+
+.social-media{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+div{
+    display: inline;
+    font-size: 80px;
+}
+
+.social-media div a{
+    display: inline-flex;
+    width: 80px;
+    height: 80px;
+    text-decoration: none;
+    color: rgb(255, 234, 208);
+    background: rgb(189, 131, 106);
+    margin: 0 6px;
+    justify-content: center;
+    transition: 0.2s;
+}
+
+.social-media .facebook a:hover{
+    background: #4267B2;
+    border-radius: 40%;
+}
+
+.social-media a i{
+    transition: all 0.5s;
+}
+
+.social-media a:hover > i{
+    transform: scale(1.5) rotate(360deg);
+}
+
+.social-media .twitter a:hover{
+    background: #1da1f2;
+    border-radius: 40%;
+}
+
+.social-media .google a:hover{
+    background: #d34c3d;
+    border-radius: 40%;
+}
+
+.social-media .instagram a:hover{
+    background: #6234ee;
+    border-radius: 50%;
+}
+
+.social-media .youtube a:hover{
+    background: #fe0000;
+    border-radius: 35%;
+}
+
+.social-media .linkedin a:hover{
+    background: #0e76a8;
+    border-radius: 20%;
+}
+
+.social-media .github a:hover{
+    background: #242424;
+    border-radius: 30%;
+}
